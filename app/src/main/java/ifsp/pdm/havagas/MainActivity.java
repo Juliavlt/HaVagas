@@ -35,6 +35,11 @@ public class MainActivity extends AppCompatActivity {
             }
             amb.formacaoSp.setSelection(0);
             amb.telefoneComercialRd.setChecked(true);
+            amb.anoFormatura.setText("");
+            amb.anoConclusao.setText("");
+            amb.instituicao.setText("");
+            amb.tituloMonografia.setText("");
+            amb.orientadorMonografia.setText("");
             amb.anoFormatura.setVisibility(View.GONE);
             amb.anoConclusao.setVisibility(View.GONE);
             amb.instituicao.setVisibility(View.GONE);

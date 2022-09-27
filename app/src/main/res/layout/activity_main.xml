@@ -93,6 +93,45 @@
             android:text="@string/adicionar_telefone_celular"
             />
 
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:minHeight="48dp"
+            android:padding="5dp"
+            android:layout_margin="5dp">
+            <RadioButton
+                android:id="@+id/femininoRd"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/feminino"
+                android:layout_weight="1"
+                android:layout_margin="5dp"
+                android:checked="true">
+            </RadioButton>
+            <RadioButton
+                android:id="@+id/masculinoRd"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/masculino"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:checked="false">
+            </RadioButton>
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/dataNascimento"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:hint="@string/DataNascimento"
+            android:minHeight="48dp"
+            android:padding="5dp"
+            android:layout_margin="5dp"
+            android:importantForAutofill="no" >
+        </EditText>
+
         <EditText
             android:id="@+id/celularEt"
             android:visibility="gone"

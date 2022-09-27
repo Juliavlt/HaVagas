@@ -17,6 +17,9 @@
     <string name="limpar">Limpar</string>
     <string name="deseja_receber_emails_de_atualiza_es">Deseja receber emails de atualizações?</string>
     <string name="adicionar_telefone_celular">Adicionar telefone celular</string>
+    <string name="feminino">feminino</string>
+    <string name="masculino">masculino</string>
+    <string name="DataNascimento">Data de nascimento</string>
     <string-array name="formacao">
         <item>Fundamental</item>
         <item>Médio</item>

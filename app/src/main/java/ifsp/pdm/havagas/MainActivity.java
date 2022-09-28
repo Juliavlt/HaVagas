@@ -13,6 +13,7 @@ import android.widget.Toast;
 
 import ifsp.pdm.havagas.databinding.ActivityMainBinding;
 
+
 public class MainActivity extends AppCompatActivity {
     private ActivityMainBinding amb;
     private Formulario formulario;
@@ -53,6 +54,8 @@ public class MainActivity extends AppCompatActivity {
             amb.tituloMonografia.setText("");
             amb.orientadorMonografia.setText("");
             amb.vagasInteresse.setText("");
+            amb.dataNascimento.setText("");
+            amb.femininoRd.setChecked(true);
             amb.anoFormatura.setVisibility(View.GONE);
             amb.anoConclusao.setVisibility(View.GONE);
             amb.instituicao.setVisibility(View.GONE);
@@ -140,16 +143,6 @@ public class MainActivity extends AppCompatActivity {
         outState.putString(KEY_INSTITUICAO, amb.instituicao.getText().toString());
         outState.putString(KEY_TITULO_MONO, amb.tituloMonografia.getText().toString());
         outState.putString(KEY_ORIENTADOR_MONO, amb.orientadorMonografia.getText().toString());
-
-        /*amb.receberEmail.setChecked(false);
-
-        amb.celularOpCb.setChecked(false);
-        if (!amb.telefoneComercialRd.isChecked()){
-            amb.telefoneComercialRd.setChecked(true);
-        }
-        amb.formacaoSp.setSelection(0);
-        amb.telefoneComercialRd.setChecked(true);
-        amb.anoConclusao.setText("");*/
     }
 
     @Override

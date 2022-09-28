@@ -93,6 +93,19 @@
             android:text="@string/adicionar_telefone_celular"
             />
 
+        <EditText
+            android:id="@+id/celularEt"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="phone"
+            android:hint="@string/celular"
+            android:minHeight="48dp"
+            android:padding="5dp"
+            android:layout_margin="5dp"
+            android:importantForAutofill="no" >
+        </EditText>
+
         <RadioGroup
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -126,19 +139,6 @@
             android:layout_height="wrap_content"
             android:inputType="text"
             android:hint="@string/DataNascimento"
-            android:minHeight="48dp"
-            android:padding="5dp"
-            android:layout_margin="5dp"
-            android:importantForAutofill="no" >
-        </EditText>
-
-        <EditText
-            android:id="@+id/celularEt"
-            android:visibility="gone"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:inputType="phone"
-            android:hint="@string/celular"
             android:minHeight="48dp"
             android:padding="5dp"
             android:layout_margin="5dp"
